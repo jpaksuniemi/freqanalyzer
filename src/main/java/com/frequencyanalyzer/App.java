@@ -184,9 +184,9 @@ public class App  {
         String textLowerCase = text.toLowerCase();
         int[] characterCount = new int[29];
 
-        for (int i = 0; i < textLowerCase.length(); i++) {
+        for (int i = 0; i < textLowerCase.length(); i++) { 
             ch = textLowerCase.charAt(i);
-            if (ch == 32 || ch == 46 || ch == 44 || ch == 45) {
+            if (ch == 32 || ch == 46 || ch == 44 || ch == 45) { // special chars
                 continue;
             }
 
